@@ -24,6 +24,7 @@ public class DragDropExample {
 		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
+		Thread.sleep(5000);
 		driver.get("https://jqueryui.com/droppable/");
 		driver.manage().window().maximize();
 		
